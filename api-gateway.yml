@@ -27,7 +27,7 @@ zuul:
     user1: 
       path: /**
       stripPrefix: true
-      url: http://localhost
+      url: http://localhost:80
 # http://${authserver.hostname}:${authserver.port}/${authserver.contextPath}
 # Define the Eureka server that handles service registration
 eureka:
