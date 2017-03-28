@@ -19,7 +19,7 @@ zuul:
   routes:
     user-webservice: /api/user/**
     task-webservice: /api/task/**
-    web-portal: /**
+    #web-portal: /**
     user: 
       path: /api/loggedinuser/**
       stripPrefix: true
