@@ -23,7 +23,8 @@ zuul:
     user: 
       path: /api/loggedinuser/**
       stripPrefix: true
-      url: http://${authserver.hostname}:${authserver.port}/${authserver.contextPath}
+      url: http://localhost:8899/userauth
+# http://${authserver.hostname}:${authserver.port}/${authserver.contextPath}
 # Define the Eureka server that handles service registration
 eureka:
   client:
