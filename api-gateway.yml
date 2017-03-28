@@ -61,9 +61,9 @@ spring:
 # Datasource and JPA configuration to be used for using the same tokenstore as the authorization server for
 # the defined resource server. Note that there can't be 2 different root nodes, so datasource falls under the "spring" node.
   datasource:
-    url: jdbc:mysql://172.30.251.163:3306/auth
+    url: jdbc:mysql://172.30.250.255:3306/auth
     username: root
-    password: Mysqltest@123098
+    password: taihe@123!
     driver-class: com.mysql.jdbc.Driver
   
   jpa:
